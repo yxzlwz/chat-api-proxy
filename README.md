@@ -41,7 +41,7 @@ response = client.chat.completions.create(...)
 
 下面是关于如何将这个项目部署到腾讯云函数的简要教程：
 
-1. 在 Release 中下载zip包，或将代码下载到本地后压缩为zip文件（需包含`app.py` `scf_bootstrap` `requirements.txt`）
+1. 在 [Release](https://github.com/yxzlwz/chat-api-proxy/releases/latest) 中下载文件 `chat-api-proxy.zip`，或将代码下载到本地后压缩为zip文件（需包含`app.py` `scf_bootstrap` `requirements.txt`）
 
 2. 打开 [腾讯云云函数控制台](https://console.cloud.tencent.com/scf/list?rid=25&ns=default)，然后点击新建。
 
